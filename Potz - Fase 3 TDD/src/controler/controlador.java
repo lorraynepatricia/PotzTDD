@@ -53,7 +53,7 @@ public class controlador {
 		total = total%11;
 		total = 11-total;
 		//verifica se o resto da divisão e igual ao digito verificador
-		if (total==digito_verificador) {
+		if (total == digito_verificador) {
 			retorno = true;
 		}
 		else {

@@ -7,7 +7,7 @@ public class controladorTest extends TestCase {
 	
 	public void testeExecutaCalculo()
 	{
-		boolean retorno; 
-		assertEquals(true, retorno    = controlador.validaCupom("5000365327"));
+		boolean retorno = controlador.validaCupom("5000365327"); 
+		assertEquals(true, retorno);
 	}
 }
