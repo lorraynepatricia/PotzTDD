@@ -7,7 +7,7 @@ public class principal {
 	private static Scanner leitura;
 	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
-		//Varivel que recebe o cupom
+		//Variavel que recebe o cupom
 		String Cupom = "";
 		String informacao;
 		leitura = new Scanner(System.in);
